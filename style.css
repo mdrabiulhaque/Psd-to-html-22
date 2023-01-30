@@ -1,6 +1,6 @@
 * {
-    margin: 5px;
-    padding: 5px;
+    margin: 0px;
+    padding: 0px;
     box-sizing: border-box;
 
 }
@@ -13,6 +13,8 @@
     border-color: #87509C;
 
     background-color: #87509C;
+    margin: px;
+    padding: 5px;
 
 }
 
@@ -76,23 +78,56 @@
     margin-bottom: 60px;
 }
 
+.two {
+    background-color: #17C2A4;
+    margin: px;
+    padding: 10px;
+    padding-top: 45px;
+    padding-bottom: 45px;
+
+
+}
+
+.line-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+
+}
+
 .line {
     border-width: 1px;
     border-style: solid;
     border-color: #14A58C;
-    margin: auto;
-    width: 4%;
-    border: 4px solid #14A58C;
-    padding: 0px;
-    border-bottom: #17C2A4;
-    border-right: #17C2A4;
-    border-left: #17C2A4;
+    width: 5%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+
+
 }
 
 .icon-1 {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: 5px;
+    padding: 5px;
+}
+
+.two-a {
+    margin: 5px;
+    padding: 5px;
+}
+
+.three {
+    margin: px;
+    padding: 5px;
+    background-color: #E7F1F8;
+    padding-top: 45px;
+    padding-bottom: 45px;
+
 }
 
 .now {
@@ -101,6 +136,8 @@
     border-color: #E7F1F8;
 
     text-align: center;
+    margin: 5px;
+    padding: 5px;
 
 }
 
@@ -111,6 +148,13 @@
     background-color: black;
 }
 
+.four {
+    margin: px;
+    padding: 5px;
+    background-color: white;
+    padding-top: 45px;
+    padding-bottom: 45px;
+}
 
 .icon-2 {
     display: flex;
@@ -122,6 +166,16 @@
     margin: 28px;
 }
 
+
+.five {
+    margin: px;
+    padding: 5px;
+    background-color: white;
+    background-color: #FFDD99;
+    padding-top: 45px;
+    padding-bottom: 45px;
+}
+
 .list {
     border-width: 1px;
     border-style: solid;
@@ -129,6 +183,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: 5px;
+    padding: 5px;
 
 }
 
@@ -145,6 +201,8 @@
     width: 60px;
     height: 30px;
     text-align: center;
+    margin: 5px;
+    padding: 5px;
 }
 
 .listt:hover {
@@ -157,9 +215,19 @@
     grid-template-columns: repeat(2, 1fr);
 
     text-align: center;
+    margin: 5px;
+    padding: 5px;
 }
 
-.icon-4 {
+.six {
+    margin: px;
+    padding: 5px;
+    background-color: #D74680;
+    padding-top: 45px;
+    padding-bottom: 45px;
+}
+
+.icon-5 {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
 
@@ -177,6 +245,8 @@
 
     justify-content: center;
     align-items: center;
+    margin: 5px;
+    padding: 5px;
 }
 
 .now-2 {
@@ -184,16 +254,21 @@
     width: 100px;
     border-radius: 100%;
     background-color: black;
+    margin: 5px;
+    padding: 5px;
+
 }
 
 .now-3 {
-    padding-top: 40px;
+
+    margin: 5px;
+    padding: 5px;
 }
 
 .form {
     border-width: 1px;
     border-style: solid;
-    border-color: #D74680;
+    border-color: #3C5499;
 
     text-align: center;
 
@@ -202,6 +277,12 @@
     align-items: center;
     background-color: #3C5499;
 
+
+}
+
+.form-1 {
+    margin: 5px;
+    padding: 5px;
 }
 
 .linee {
@@ -224,6 +305,8 @@
     height: 50px;
     color: white;
     font-size: 22px;
+    margin: 5px;
+    padding: 5px;
 }
 
 #text {
@@ -233,6 +316,9 @@
     height: 200px;
     color: white;
     font-size: 22px;
+    margin: 5px;
+    padding: 5px;
+
 }
 
 #submit {
@@ -242,6 +328,21 @@
     height: 50px;
     color: #F4FCFD;
     font-size: 18px;
+    margin-top: 15px;
+    margin-bottom: 55px;
+    padding: 5px;
+}
+
+.form-line {
+
+    border-width: 5px;
+    border-style: solid;
+    border-color: #344B8E;
+    width: 5%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+
+
 }
 
 .footer {
@@ -250,11 +351,25 @@
     border-width: 1px;
     border-style: solid;
     border-color: #344B8E;
-
     background-color: #344B8E;
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: 0px;
+    padding: 15px;
+
+}
+
+.c {
+    border-width: 1px;
+    border-style: solid;
+    border-color: #344B8E;
+    color: white;
+    text-decoration: none;
+
+
+    margin: 5px;
+    padding: 5px;
 
 }
 
@@ -266,10 +381,12 @@
     text-decoration: none;
 
     font-size: 20px;
+    margin: 0px;
+    padding: 5px;
 
 }
 
 .c a:hover {
-    background-color: #30BDE9;
+    color: #30BDE9;
 
 }
